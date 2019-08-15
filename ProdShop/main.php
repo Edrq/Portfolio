@@ -14,8 +14,6 @@ include "blocks/head.php";
 
 <?php require_once "blocks/header.php" ?>
 
- 
-
 <div id="wrapper">
   <div id="leftCol">
 
