@@ -17,7 +17,7 @@ include "blocks/head.php";
  <?php
 
 /*
-
+		Двухмерный массив продуктов (использовать в случае отсутствия подключения к БД)
 global $Products;
 global $apple;
 global $pineapple;
