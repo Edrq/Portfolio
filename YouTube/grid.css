@@ -1,0 +1,19 @@
+.grid
+{
+	display: flex;
+}
+
+.grid__col
+{
+	flex-grow: 1;
+}
+
+.grid__col_width_15
+{
+	width: 15%;	
+}
+
+.grid__col_width_85
+{
+	width: 85%;
+}
