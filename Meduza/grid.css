@@ -1,0 +1,51 @@
+.grid
+{
+	display: flex;
+}
+
+.grid_cols_2 > .grid__col
+{
+	width: 50%;
+}
+
+.grid_cols_2 > .card
+{
+	width: 50%;
+}
+
+.grid_cols_3 > .grid__col
+{
+	width: calc(100% / 3);
+}
+
+.grid_rows_3 > .grid__col
+{
+	height: calc(100% / 3);
+}
+
+.grid__col_width_15
+{
+	width: 15%;	
+}
+
+.grid__col_width_85
+{
+	width: 85%;
+}
+
+.grid_dir_col
+{
+	flex-direction: column;
+}
+
+.grid__col,
+.grid--no-grow .grid__col--grow
+{
+	flex-grow: 1;
+}
+
+.grid--no-grow .grid__col,
+.grid__col--no-grow
+{
+	flex-grow: 0;
+}
