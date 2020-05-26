@@ -63,6 +63,7 @@
 {
 	text-transform: uppercase;
 	padding-left: 25px;
+	padding-right: 15px;
 	margin-bottom: 10px;
 	opacity: 0.5;
 }
@@ -88,7 +89,7 @@
 {
 	margin-left: 10px;
 	height: 40px;
-	object-fit: contain;
+	object-fit: cover;
 }
 
 .header-link__text
@@ -146,7 +147,7 @@
 .post
 {
 	background-color: #c0c0c0;
-	padding: 20px 50px 20px 0px;
+	padding: 20px 20px 20px 20px;
 }
 
 .indent_0 
