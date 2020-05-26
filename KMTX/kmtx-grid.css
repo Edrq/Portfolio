@@ -1,0 +1,14 @@
+.grid
+{
+  display: flex;
+}
+
+.grid_cols_2 > .grid__col
+{
+  width: 50%;
+}
+
+.grid_cols_2 > .content
+{
+  width: 50%;
+}
